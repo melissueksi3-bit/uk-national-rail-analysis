@@ -1,4 +1,4 @@
-# UK National Rail — Sales & Punctuality Dashboard
+# UK National Rail Data Analysis | Power BI & SQL
 
 An exploratory Power BI dashboard analysing **31,653 National Rail ticket sales**
 (January–April 2024) to surface insights on revenue, on-time performance, and
