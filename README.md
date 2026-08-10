@@ -6,7 +6,9 @@ passenger demand across the UK network.
 
 > Built as a portfolio project. Data: *UK Train Rides* sample dataset from
 > Maven Analytics (mock National Rail ticket data).
-
+> 
+## Dashboard
+![UK National Rail Power BI Dashboard](rail%20data%20dashboard.PNG)
 ---
 
 ## The brief
