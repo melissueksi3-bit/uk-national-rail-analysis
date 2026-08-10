@@ -38,7 +38,7 @@ about scheduling, pricing, and performance.
 
 I used SQLite to explore the cleaned dataset and answer the business questions behind the dashboard, including revenue, passenger demand and punctuality.
 
-![SQLite analysis](sql_analysis.png)
+![SQLite analysis](sqlit%202.PNG)
 
 The full SQL queries are available in [`rail_analysis_queries.sql`](rail_analysis_queries.sql).
 
