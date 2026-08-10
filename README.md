@@ -34,6 +34,14 @@ about scheduling, pricing, and performance.
 - **£38,702** of revenue was exposed to refund requests (~3.5% of journeys).
 - **Advance** tickets drive the most revenue (**£309k**), ahead of Off-Peak and Anytime.
 
+  ## SQL Analysis
+
+I used SQLite to explore the cleaned dataset and answer the business questions behind the dashboard, including revenue, passenger demand and punctuality.
+
+![SQLite analysis](sql_analysis.png)
+
+The full SQL queries are available in [`rail_analysis_queries.sql`](rail_analysis_queries.sql).
+
 *(Full recommendations are documented in the dashboard's insights panel.)*
 
 ## Tools & skills
@@ -41,22 +49,15 @@ about scheduling, pricing, and performance.
 - **SQL** — exploratory queries (see `rail_analysis_queries.sql`)
 - **Excel** — initial data profiling
 
-## Data cleaning notes
-- Standardised inconsistent delay-reason labels (e.g. "Signal Failure" / "Signal failure",
-  "Weather" / "Weather Conditions", "Staffing" / "Staff Shortage").
-- Filled missing `Railcard` values as **None** and blank delay reasons as **N/A**.
-- Derived fields: departure hour, day of week, month, and a combined route field.
 
 ## Repo contents
 | File | Description |
 |------|-------------|
 | `railway_cleaned.csv` | Cleaned dataset used in the dashboard |
 | `rail_analysis_queries.sql` | SQL queries answering the business questions |
-| `Rail_Dashboard.pbix` | Power BI file *(add once built)* |
-| `dashboard.png` | Screenshot of the final dashboard *(add once built)* |
+| `Rail_Dashboard.pbix` | Power BI file |
+| `dashboard.png` | Screenshot of the final dashboard |
 
-## How to view
-Open `Rail_Dashboard.pbix` in Power BI Desktop (free), or view the screenshot above.
 
 ---
 *Author: Melis Su Eksi · [LinkedIn](#) · Data © Maven Analytics (sample dataset).*
